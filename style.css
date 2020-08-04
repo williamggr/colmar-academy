@@ -1,6 +1,6 @@
 html {
 font-size: 16px;
-font-family: Arial;
+font-family: 'Roboto', sans-serif;
 
 }
 
@@ -65,8 +65,12 @@ width: 90%;
 margin: 24px auto 32px auto;
 }
 
+.courses li a {
+    text-decoration: none;
+}
 .learn a {
     margin-bottom: 32px;
+    text-decoration: none;
 }
 
 .orientation {
@@ -136,7 +140,8 @@ margin-bottom: 32px;
 
 .thesis {
 }
-.thesis h4 {
+
+#thesishead {
 text-align: center;
 padding-top: 32px;
 padding-bottom: 16px;
@@ -174,6 +179,18 @@ display: none;
 display: none;
 }
 
+.thesis-desk .p-desk {
+display: none;
+}
+
+.thesis-img {
+display: none;
+}
+
+.terms {
+display: none;
+}
+
 @media only screen and (min-width: 1000px) {
  .header .desk {
 display: none;
@@ -200,6 +217,7 @@ padding-right: 24px;
     display: inline-block;
     text-decoration: none;
     color: black;
+    padding-left: 8px;
 }
 .header p {
 font-weight: bold;
@@ -301,7 +319,6 @@ display: flex;
 flex-flow: row wrap;
 justify-content: space-between;
 padding: 32px 72px;
-
 }
 
 .learning-desk {
@@ -340,5 +357,94 @@ padding-top: 16px;
 margin: 0;
 }
 
+.thesis video {
+padding: 0 24px 24px 24px;
+width: 80%;
+height: 60%;
+}
 
+#thesishead {
+padding: 32px 0;
+margin: 0 auto;
+}
+
+.thesis-desk {
+display: block;
+padding-left: 24px;
+width: 60%;
+}
+
+.thesis {
+display: flex;
+}
+
+.text img {
+ width: 35%;
+height: auto;
+}
+
+.thesis-img {
+width: 40%;
+display: flex;
+}
+
+.thesis-desk .p-desk {
+display: block;
+}
+
+.text {
+display: flex;
+}
+
+.text-thesis {
+
+}
+
+footer {
+border-top: 1px solid gray;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+font-size: 16px;
+font-family: Arial;
+}
+
+footer .rights {
+text-align: left;
+padding-left: 24px;
+}
+
+.terms {
+text-decoration: none;
+display: inline-block;
+}
+
+#fisma {
+background-color: rgb(204, 204, 204);
+}
+
+.text {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 16px;
+    }
+    
+    .text h2 {
+    font-weight: bold;
+    position: relative;
+    padding-left: 16px;
+    }
+    
+    .text p {
+    font-weight: 500;
+    padding-left: 16px;
+    }
+
+    html {
+    font-family: 'Roboto', sans-serif;
+    }
 }
